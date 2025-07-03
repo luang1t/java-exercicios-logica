@@ -14,7 +14,7 @@ import java.util.Scanner;
  * - Mensagem indicando se o recall é permitido ou não
  */
 
-public class Exercicio05_RecallCheck {
+public class Exercicio06_RecallCheck {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
