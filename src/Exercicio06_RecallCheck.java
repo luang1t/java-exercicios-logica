@@ -26,6 +26,7 @@ public class Exercicio06_RecallCheck {
         String recallPermitido = visaoTorre == false ? "recall iniciado"
                 : "se esconda, ou sai da visão da torre para dar recall!";
         System.out.println(recallPermitido);
+
         scanner.close();
     }
 

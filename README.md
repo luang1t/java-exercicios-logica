@@ -1,18 +1,66 @@
-## Getting Started
+# 🧠 Java LoL Lógica - Desafios para Iniciantes 🎮
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém uma série de exercícios de **lógica de programação em Java**, com temas inspirados no universo de **League of Legends**. Ideal para quem está começando na programação e quer aprender se divertindo!
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📚 Lista de Exercícios
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+| Nº  | Título                       | Descrição                                                                                  |
+|-----|------------------------------|--------------------------------------------------------------------------------------------|
+| 01  | Boas-vindas ao Rift          | Lê nome e lane favorita do jogador e imprime uma mensagem personalizada.                   |
+| 02  | Contador de Minions          | Recebe o número de minions farmados e calcula a média por minuto.                          |
+| 03  | Quem tem mais gold?          | Compara o gold de dois jogadores e informa quem está na frente (ou se estão empatados).    |
+| 04  | Loop de Experiência          | Mostra a evolução de nível até o 18 a partir do nível atual informado.                     |
+| 05  | Calculadora de Dano (AP)     | Calcula o dano final de uma habilidade com base no poder de habilidade e multiplicador.    |
+| 06  | Recall Negado                | Verifica se o jogador pode dar recall com base na visão da torre inimiga.                  |
+| 07  | Simulador de Loja            | Mostra um menu de itens e permite ao jogador comprar um item via `switch case`.            |
+| 08  | Chat do Time                 | Simula um chat onde o jogador envia mensagens até digitar "sair".                          |
+| 09  | KDA do Jogador               | Calcula o KDA com base nas kills, deaths e assists de uma partida.                         |
+| 10  | Loop de Partidas             | Calcula a média de kills com base no número de partidas jogadas e kills por partida.       |
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📦 Estrutura do Projeto
 
-## Dependency Management
+│java-exercicios-logica-1/
+│
+├── src/
+│ ├── Exercicio01_WelcomeToRift.java
+│ ├── Exercicio02_MinionCounter.java
+│ ├── Exercicio03_GoldComparator.java
+│ ├── Exercicio04_LevelUpLoop.java
+│ ├── Exercicio05_DamageCalculator.java
+│ ├── Exercicio06_RecallCheck.java
+│ ├── Exercicio07_ShopSimulator.java
+│ ├── Exercicio08_TeamChatSimulator.java
+│ ├── Exercicio09_KDACalculator.java
+│ └── Exercicio10_MatchKillAverage.java
+│
+└── README.md
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+---
+
+## 🚀 Como executar
+
+1. Clone o repositório: 
+
+   ```bash
+   git clone https://github.com/seu-usuario/Java-LoL-Logica.git
+
+2. Navegue até o diretório e abra no VS Code ou IDE de sua preferência.
+
+3. Compile e execute o arquivo desejado:
+
+    javac Exercicio01_WelcomeToRift.java
+    java Exercicio01_WelcomeToRift
+
+## 🎯 Objetivo
+
+Praticar lógica de programação, entrada e saída com Scanner, estruturas condicionais, laços, tipos primitivos, operadores ternários e boas práticas de forma leve e contextualizada.
+
+## 👨‍💻 Autor
+
+Feito com dedicação por Luan Rodrigues 🧙
+🎯 Em formação para se tornar um desenvolvedor Back-End Java.
