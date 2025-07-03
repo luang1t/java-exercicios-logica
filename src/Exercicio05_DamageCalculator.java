@@ -36,5 +36,6 @@ public class Exercicio05_DamageCalculator {
         danoFinal = danoBase + (poderDeHabilidade * multiplicador);
         System.out.println("Voce está com um total de: " + danoFinal + " poder de habilidade 'AP'.");
 
+        scanner.close();
     }
 }

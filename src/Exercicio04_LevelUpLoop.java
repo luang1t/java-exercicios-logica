@@ -32,6 +32,7 @@ public class Exercicio04_LevelUpLoop {
         } else
             System.out.println("Digite um nível entre 1 e 18.");
 
+        scanner.close();
     }
 
 }
