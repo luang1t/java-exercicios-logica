@@ -21,23 +21,19 @@ Este repositório contém uma série de exercícios de **lógica de programaçã
 
 ---
 
-## 📦 Estrutura do Projeto
+## Exercícios de Lógica em Java com Temática de League of Legends 🧠🎮
 
-│java-exercicios-logica-1/
-│
-├── src/
-│ ├── Exercicio01_WelcomeToRift.java
-│ ├── Exercicio02_MinionCounter.java
-│ ├── Exercicio03_GoldComparator.java
-│ ├── Exercicio04_LevelUpLoop.java
-│ ├── Exercicio05_DamageCalculator.java
-│ ├── Exercicio06_RecallCheck.java
-│ ├── Exercicio07_ShopSimulator.java
-│ ├── Exercicio08_TeamChatSimulator.java
-│ ├── Exercicio09_KDACalculator.java
-│ └── Exercicio10_MatchKillAverage.java
-│
-└── README.md
+### Índice
+- [Exercicio01 - Boas-vindas ao Rift](src/Exercicio01_WelcomeToRift.java)
+- [Exercicio02 - Contador de Minions](src/Exercicio02_MinionCounter.java)
+- [Exercicio03 - Comparador de Gold](src/Exercicio03_GoldComparator.java)
+- [Exercicio04 - Loop de Experiência](src/Exercicio04_LevelUpLoop.java)
+- [Exercicio05 - Calculadora de Dano](src/Exercicio05_DamageCalculator.java)
+- [Exercicio06 - Verificador de Recall](src/Exercicio06_RecallCheck.java)
+- [Exercicio07 - Simulador de Loja](src/Exercicio07_ShopSimulator.java)
+- [Exercicio08 - Chat do Time](src/Exercicio08_TeamChatSimulator.java)
+- [Exercicio09 - Calculadora de KDA](src/Exercicio09_KDACalculator.java)
+- [Exercicio10 - Média de Kills por Partida](src/Exercicio10_MatchKillAverage.java)
 
 
 ---
