@@ -59,4 +59,5 @@ Praticar lógica de programação, entrada e saída com Scanner, estruturas cond
 ## 👨‍💻 Autor
 
 Feito com dedicação por Luan Rodrigues 🧙
+
 🎯 Em formação para se tornar um desenvolvedor Back-End Java.
