@@ -11,23 +11,26 @@ import java.util.Scanner;
 public class Exercicio14_RandomSkin {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int selecionaSkin;
-        System.out.println("escolha uma skin de 1 a 4 sorteado");
-        selecionaSkin = scanner.nextInt();
-        if (selecionaSkin != 0 && selecionaSkin < 4) {
+        System.out.println("Escolha uma skin do Ezreal de 1 a 4 sorteado:");
+        int selecionaSkin = scanner.nextInt();
 
-            if (selecionaSkin == 1)
-                System.out.println("Curtindo verao");
-            else if (selecionaSkin == 2)
-                System.out.println("porcelana");
-            else if (selecionaSkin == 3)
-                System.out.println("pulsefire");
-            else if (selecionaSkin == 4)
-                System.out.println("psyops");
-
-        } else
-            System.out.println("Digite de 1-4");
+        switch (selecionaSkin) {
+            case 1:
+                System.out.println("Ez Porcelana");
+                break;
+            case 2:
+                System.out.println("Ez Pulsefire");
+                break;
+            case 3:
+                System.out.println("Ez PsyOps");
+                break;
+            case 4:
+                System.out.println("Ez Dedão de Espuma");
+                break;
+            default:
+                System.out.println("Skin não encontrada!");
+                break;
+        }
         scanner.close();
-
     }
 }

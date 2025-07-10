@@ -11,13 +11,12 @@ public class Exercicio12_AgeCampVerify {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite sua idade para saber se pode participar do campeonato.");
-        int idade;
-        idade = scanner.nextInt();
+        System.out.println("Digite sua idade para saber se você pode participar do campeonato: ");
+        int idade = scanner.nextInt();
         if (idade >= 16)
-            System.out.println("yes");
+            System.out.println("Pode participar!");
         else
-            System.out.println("no");
+            System.out.println("Não pode participar!");
 
         scanner.close();
 

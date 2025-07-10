@@ -10,22 +10,22 @@ import java.util.Scanner;
 public class Exercicio13_SelectTypeOfChamp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int selecionaTipoCampeao;
-        System.out.println("1-Lutador\n2-Atirador\n3-Mago");
-        selecionaTipoCampeao = scanner.nextInt();
+        System.out.println("Escolha um tipo para saber suas características:\nLutador\nAtirador\nMago");
+        String selecionaTipoCampeao = scanner.nextLine().toLowerCase();
 
         switch (selecionaTipoCampeao) {
-            case 1:
-                System.out.println("Lutador");
+            case "lutador":
+                System.out.println("Lutador:\nLutadores são resistentes e gostam do corpo a corpo!");
                 break;
-            case 2:
-                System.out.println("Atirador");
+            case "atirador":
+                System.out.println("Atirador:\nAtiradores causam muito dano de longe, mas são frágeis.");
                 break;
-            case 3:
-                System.out.println("Mago");
+            case "mago":
+                System.out.println("Mago:\nMagos usam habilidades poderosas e controlam a batalha.");
                 break;
 
             default:
+                System.out.println("Tipo inválido. Escolha entre: lutador, atirador ou mago.");
                 break;
         }
         scanner.close();

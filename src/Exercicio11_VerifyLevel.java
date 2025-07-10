@@ -14,9 +14,10 @@ public class Exercicio11_VerifyLevel {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Seu XP corresponde seu elo:\n0 - infinito.");
-        int xP;
-        xP = scanner.nextInt();
+
+        int xP = scanner.nextInt();
         if (xP < 500)
             System.out.println("Ferro");
         else if (xP < 1000)
