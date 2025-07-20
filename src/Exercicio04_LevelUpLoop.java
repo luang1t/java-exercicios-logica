@@ -14,24 +14,14 @@ import java.util.Scanner;
  */
 
 public class Exercicio04_LevelUpLoop {
+
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-
-        int nivelAtual, i;
-
-        System.out.println("Digite seu nível atual: ");
-        nivelAtual = scanner.nextInt();
-
-        if (nivelAtual >= 1 && nivelAtual <= 18) {
-            System.out.println("Evoluindo do nível " + nivelAtual + " até o nível 18.");
-
-            for (i = nivelAtual; i <= 18; i++) {
-                System.out.println("Nível subindo: " + i);
-            }
-        } else
-            System.out.println("Digite um nível entre 1 e 18.");
-
+        System.out.println("Digite o seu nível atual para ter o print dos próximos níveis.");
+        int nivelAtual = scanner.nextInt();
+        for (int i = nivelAtual; i <= 18; i++) {
+            System.out.println("Level Up: " + i);
+        }
+        scanner.close();
     }
-
 }
